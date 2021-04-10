@@ -1,0 +1,142 @@
+body {margin: 0;padding: 8px;background: #DDD;font-family: sans-serif}
+h1 {margin: 24px 4px;padding: 0px;font-size: 32px}
+h2 {margin: 22px 4px;padding: 0px;font-size: 24px}
+h3 {margin: 18px 4px;padding: 0px;font-size: 16px}
+h4 {margin: 16px 4px;padding: 0px;font-size: 16px;text-decoration: underline}
+h5 {margin: 16px 4px;padding: 0px;font-size: 16px;text-decoration: underline}
+p {margin: 12px 4px;padding: 0px;font-size: 16px}
+a {color: #0000ff}
+a:hover {color: #ff00ff}
+a:active {color: #ff0000}
+.i {font-style: italic}
+.o {font-style: oblique}
+.b {font-weight: bold}
+.s {font-variant: small-caps}
+
+.button {
+cursor: default;
+display: inline-block;
+margin: 4px;
+padding: 4px 16px;
+user-select: none;
+text-decoration: none
+}
+
+.win7 {
+-moz-box-shadow: 0 0 0 1px #707070;
+-webkit-box-shadow: 0 0 0 1px #707070;
+box-shadow: 0 0 0 1px #707070;
+border: 1px solid #F3F3F3;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+background: -moz-linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#F2F2F2), color-stop(0.5,#EBEBEB),color-stop(0.51,#DDDDDD),color-stop(1,#CFCFCF));
+background: linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%)
+}
+.win7:hover {
+-moz-box-shadow: 0 0 0 1px #3C7FB1;
+-webkit-box-shadow: 0 0 0 1px #3C7FB1;
+box-shadow: 0 0 0 1px #3C7FB1;
+border: 1px solid #ECF7FD;
+background: -moz-linear-gradient(top, #EAF6FD 0%, #D9F0FC 50%, #BEE6FD 51%, #A7D9F5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#EAF6FD), color-stop(0.5,#D9F0FC),color-stop(0.51,#BEE6FD),color-stop(1,#A7D9F5));
+background: linear-gradient(top, #EAF6FD 0%, #D9F0FC 50%, #BEE6FD 51%, #A7D9F5 100%)
+}
+.win7:active {
+-moz-box-shadow: 0 0 0 1px #2C628B;
+-webkit-box-shadow: 0 0 0 1px #2C628B;
+box-shadow: 0 0 0 1px #2C628B;
+border: 1px solid #73A7C4;
+border-bottom: 0;
+padding: 5px 16px 4px 16px;
+background: -moz-linear-gradient(top, #E5F4FC 0%, #C4E5F6 50%, #98D1EF 51%, #68B3DB 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#E5F4FC), color-stop(0.5,#C4E5F6),color-stop(0.51,#98D1EF),color-stop(1,#68B3DB))
+
+}
+
+.gradient {background: linear-gradient(#EEE, #CCC);border-radius: 7px;border: 1px solid #FFF;box-shadow: 0 0 0 1px #222;color: #222}
+.gradient:hover {background: linear-gradient(#EEE, #CCC);border: 1px solid #FFF;box-shadow: 0 0 0 1px #222;color: #222}
+.gradient:active {background: linear-gradient(#EEE, #CCC);border: 1px solid #AAA;border-bottom: 0;box-shadow: 0 0 0 1px #222;color: #222;padding: 5px 16px 4px 16px}
+
+.win9x {
+border: 1px solid #000;
+border-image: url("win9x-outset.svg") 64/2px;
+border-radius: 0px;
+background: #CCC
+}
+.win9x:hover {
+}
+.win9x:active {
+border-image: url("win9x-inset.svg") 64/2px;
+padding: 5px 15px 3px 17px
+}
+
+.macos6 {
+border: 1px solid #000;
+border-image: url("macos6-outset.svg") 64/2px;
+border-radius: 3px;
+background: #FFF
+}
+.macos6:hover {
+}
+.macos6:active {
+border-image: url("macos6-inset.svg") 64/2px;
+background: #000;
+color: #FFF
+}
+
+.iexplore {
+border: 1px solid #707070;
+border-radius: 0px;
+background: linear-gradient(#ECECEC, #D6D6D6)
+}
+.iexplore:hover {
+}
+.iexplore:active {
+border-color: #0089B4;
+padding: 5px 15px 3px 17px;
+background: #34B4E3
+}
+
+.win10 {
+border: 1px solid #ADADAD;
+border-radius: 0px;
+padding: 4px 16px;
+background: #E1E1E1
+}
+.win10:hover {
+border-color: #0078D7;
+outline: unset;
+background: #E5F1FB
+}
+.win10:active {
+border-color: #005499;
+outline: unset;
+background: #CCE4F7
+}
+
+.flat {
+border: 1px solid #767676;
+border-radius: 3px;
+background: #EFEFEF
+}
+.flat:hover {
+border-color: #4F4F4F;
+background: #E5E5E5
+}
+.flat:active {
+border-color: #767676;
+background: #EFEFEF
+}
+
+.neu {
+border-radius: 12px;
+background: #DDD;
+box-shadow: 4px 4px 4px #CCC, -4px -4px 4px #EEE
+}
+.neu:hover {
+}
+.neu:active {
+background: #AAA
+}
